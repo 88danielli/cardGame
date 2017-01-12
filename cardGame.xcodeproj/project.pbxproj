@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F4B39291E26BDE2000551B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B39281E26BDE2000551B2 /* AppDelegate.swift */; };
-		4F4B392B1E26BDE2000551B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B392A1E26BDE2000551B2 /* ViewController.swift */; };
-		4F4B392E1E26BDE2000551B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B392C1E26BDE2000551B2 /* Main.storyboard */; };
-		4F4B39301E26BDE2000551B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B392F1E26BDE2000551B2 /* Assets.xcassets */; };
-		4F4B39331E26BDE2000551B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B39311E26BDE2000551B2 /* LaunchScreen.storyboard */; };
 		4F4B393E1E26BDE3000551B2 /* cardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B393D1E26BDE3000551B2 /* cardGameTests.swift */; };
 		4F4B39491E26BDE3000551B2 /* cardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B39481E26BDE3000551B2 /* cardGameUITests.swift */; };
+		4F4B39611E26D6B9000551B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B39601E26D6B9000551B2 /* Default-568h@2x.png */; };
+		4F4B399F1E26D82E000551B2 /* cardGame in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B399E1E26D82E000551B2 /* cardGame */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +32,14 @@
 
 /* Begin PBXFileReference section */
 		4F4B39251E26BDE2000551B2 /* cardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F4B39281E26BDE2000551B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F4B392A1E26BDE2000551B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F4B392D1E26BDE2000551B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F4B392F1E26BDE2000551B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F4B39321E26BDE2000551B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F4B39341E26BDE2000551B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F4B39391E26BDE3000551B2 /* cardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4B393D1E26BDE3000551B2 /* cardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardGameTests.swift; sourceTree = "<group>"; };
 		4F4B393F1E26BDE3000551B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F4B39441E26BDE3000551B2 /* cardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4B39481E26BDE3000551B2 /* cardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardGameUITests.swift; sourceTree = "<group>"; };
 		4F4B394A1E26BDE3000551B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4B39601E26D6B9000551B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4F4B399E1E26D82E000551B2 /* cardGame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cardGame; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +70,8 @@
 		4F4B391C1E26BDE2000551B2 = {
 			isa = PBXGroup;
 			children = (
-				4F4B39271E26BDE2000551B2 /* cardGame */,
+				4F4B399E1E26D82E000551B2 /* cardGame */,
+				4F4B39601E26D6B9000551B2 /* Default-568h@2x.png */,
 				4F4B393C1E26BDE3000551B2 /* cardGameTests */,
 				4F4B39471E26BDE3000551B2 /* cardGameUITests */,
 				4F4B39261E26BDE2000551B2 /* Products */,
@@ -92,19 +86,6 @@
 				4F4B39441E26BDE3000551B2 /* cardGameUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4F4B39271E26BDE2000551B2 /* cardGame */ = {
-			isa = PBXGroup;
-			children = (
-				4F4B39281E26BDE2000551B2 /* AppDelegate.swift */,
-				4F4B392A1E26BDE2000551B2 /* ViewController.swift */,
-				4F4B392C1E26BDE2000551B2 /* Main.storyboard */,
-				4F4B392F1E26BDE2000551B2 /* Assets.xcassets */,
-				4F4B39311E26BDE2000551B2 /* LaunchScreen.storyboard */,
-				4F4B39341E26BDE2000551B2 /* Info.plist */,
-			);
-			path = cardGame;
 			sourceTree = "<group>";
 		};
 		4F4B393C1E26BDE3000551B2 /* cardGameTests */ = {
@@ -232,9 +213,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4B39331E26BDE2000551B2 /* LaunchScreen.storyboard in Resources */,
-				4F4B39301E26BDE2000551B2 /* Assets.xcassets in Resources */,
-				4F4B392E1E26BDE2000551B2 /* Main.storyboard in Resources */,
+				4F4B399F1E26D82E000551B2 /* cardGame in Resources */,
+				4F4B39611E26D6B9000551B2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4B392B1E26BDE2000551B2 /* ViewController.swift in Sources */,
-				4F4B39291E26BDE2000551B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +272,6 @@
 			targetProxy = 4F4B39451E26BDE3000551B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4F4B392C1E26BDE2000551B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F4B392D1E26BDE2000551B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4F4B39311E26BDE2000551B2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F4B39321E26BDE2000551B2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F4B394B1E26BDE3000551B2 /* Debug */ = {
@@ -435,7 +394,6 @@
 		4F4B39511E26BDE3000551B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = cardGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -449,7 +407,6 @@
 		4F4B39521E26BDE3000551B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = cardGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -463,7 +420,6 @@
 		4F4B39541E26BDE3000551B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = cardGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.cardGameUITests;
@@ -476,7 +432,6 @@
 		4F4B39551E26BDE3000551B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = cardGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.cardGameUITests;
